@@ -1,10 +1,16 @@
-import { createRouter, createWebHistory, RouteRecordRaw, Router } from 'vue-router'
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
+import Chats from './Pages/Chats.vue'
 
-const routes  = <RouteRecordRaw[]>[]
+const routes  = <RouteRecordRaw[]>[
+    {
+        path: '/',
+        component: Chats,
+    }
+]
 
 const router = createRouter({
     history: createWebHistory(),
     routes
 })
 
-export default router as Router
+export default router

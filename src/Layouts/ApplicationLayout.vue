@@ -9,10 +9,10 @@ type User = {
 }
 
 const users = <User[]>[
-    {id: 1, name: 'Halleah Lyka Capino', message: 'Wait lang', status: 'offline'},
-    {id: 2, name: 'Alma Parientes Capino', message: 'Magsaing ka na', status: 'online'},
-    {id: 3, name: 'Hernando Labwanan Capino', message: 'Paabot nga ng host jan. Tapos pa bukas na ng tubig', status: 'away'},
-    {id: 4, name: 'Hyna Jane Capino', message: 'Anong Ulam ma ?', status: 'online'},
+    {id: 1, name: 'Alexis Axis', message: 'Wait lang', status: 'offline'},
+    {id: 2, name: 'Georgy George', message: 'Magsaing ka na', status: 'online'},
+    {id: 3, name: 'Jean Joan John', message: 'Paabot nga ng host jan. Tapos pa bukas na ng tubig', status: 'away'},
+    {id: 4, name: 'Excaliburrrr', message: 'Anong Ulam ma ?', status: 'online'},
 ]
 </script>
 
